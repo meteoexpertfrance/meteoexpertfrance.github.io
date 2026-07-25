@@ -1,53 +1,63 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#061426">
-<title>Sources — MétéoClair</title>
-<meta name="description" content="Sources et attributions de MétéoClair.">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061426">
+  <meta name="color-scheme" content="dark">
+  <title>Sources et attributions — MétéoClair</title>
+  <meta name="description" content="Sources météo, qualité de l’air, pollen, altitude et recherche de lieux utilisées par MétéoClair.">
+  <link rel="canonical" href="https://meteoexpertfrance.github.io/sources.html">
+  <meta property="og:title" content="Sources et attributions — MétéoClair">
+  <meta property="og:description" content="Des informations clairement attribuées à leurs fournisseurs.">
+  <meta property="og:image" content="https://meteoexpertfrance.github.io/assets/social/meteo-clair-social.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<a class="skip-link" href="#contenu">Aller au contenu</a>
-<header class="site-header">
-  <div class="nav">
-    <a class="brand" href="index.html"><span class="brand-mark">⛅</span><span>MétéoClair</span></a>
-    <nav class="nav-links" aria-label="Navigation principale"><a href="support.html">Assistance</a><a href="confidentialite.html">Confidentialité</a><a href="sources.html" aria-current="page">Sources</a><a href="accessibilite.html">Accessibilité</a><a href="conditions.html">Conditions</a></nav>
-  </div>
-</header>
-<main id="contenu">
-<div class="content">
-  <article>
-    <p class="meta">Sources techniques — dernière mise à jour : 25 juillet 2026</p>
-    <h1>Sources et attributions</h1>
-    <p class="lead">MétéoClair assemble plusieurs sources afin de présenter des informations météo compréhensibles. Une source indisponible n’est jamais remplacée par une valeur inventée.</p>
-  </article>
-  <section>
-    <h2>Météo</h2>
-    <p>Les conditions actuelles et les prévisions sont fournies principalement par Apple Weather via WeatherKit. L’attribution Apple Weather est affichée dans l’application lorsque nécessaire.</p>
-  </section>
-  <section>
-    <h2>Recherche de lieux</h2>
-    <p>La recherche et le géocodage utilisent Apple Plans / MapKit.</p>
-  </section>
-  <section>
-    <h2>Qualité de l’air</h2>
-    <p>L’indice ATMO communal provient des données ouvertes d’Atmo France et des Associations agréées de surveillance de la qualité de l’air (AASQA), selon disponibilité.</p>
-  </section>
-  <section>
-    <h2>Pollen et altitude</h2>
-    <p>Les prévisions de pollen et l’altitude terrain utilisent les services Open-Meteo et les données CAMS associées, selon disponibilité et saison.</p>
-  </section>
-  <section>
-    <h2>Limites</h2>
-    <p class="notice">Les prévisions et indices sont indicatifs. Les données peuvent être retardées, partielles ou indisponibles. Pour toute décision de sécurité, consultez les services officiels compétents.</p>
-  </section>
-</div>
-</main>
-<footer>
-  <span>© 2026 Clément Lours — MétéoClair</span>
-  <nav aria-label="Liens de pied de page"><a href="support.html">Assistance</a><a href="confidentialite.html">Confidentialité</a><a href="sources.html">Sources</a><a href="accessibilite.html">Accessibilité</a><a href="conditions.html">Conditions</a></nav>
-</footer>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="MétéoClair, accueil"><img src="assets/app-icon.png" width="1024" height="1024" alt=""><span>MétéoClair</span></a>
+      <nav class="nav-links" aria-label="Navigation principale"><a href="index.html#fonctionnalites">Fonctionnalités</a><a href="index.html#apercus">Aperçus</a><a href="support.html">Assistance</a><a href="confidentialite.html">Confidentialité</a><a href="sources.html" aria-current="page">Sources</a><a href="accessibilite.html">Accessibilité</a></nav>
+      <details class="mobile-menu"><summary aria-label="Ouvrir le menu de navigation">Menu</summary><nav aria-label="Navigation mobile"><a href="index.html">Accueil</a><a href="index.html#fonctionnalites">Fonctionnalités</a><a href="index.html#apercus">Aperçus</a><a href="support.html">Assistance</a><a href="confidentialite.html">Confidentialité</a><a href="sources.html" aria-current="page">Sources</a><a href="accessibilite.html">Accessibilité</a></nav></details>
+    </div>
+  </header>
+  <main id="contenu">
+    <div class="content">
+      <article>
+        <p class="meta">Sources techniques · Mise à jour le 25 juillet 2026</p>
+        <h1>Des informations clairement attribuées</h1>
+        <p class="lead">MétéoClair assemble plusieurs sources afin de présenter des informations météo compréhensibles. Une source indisponible n’est jamais remplacée par une valeur inventée.</p>
+      </article>
+      <section>
+        <h2>Météo</h2>
+        <p>Les conditions actuelles, alertes et prévisions sont fournies par Apple Weather via WeatherKit. L’attribution Apple Weather et son lien légal sont affichés dans l’application lorsque nécessaire.</p>
+      </section>
+      <section>
+        <h2>Recherche de lieux</h2>
+        <p>La recherche et le géocodage utilisent Apple Plans / MapKit.</p>
+      </section>
+      <section>
+        <h2>Qualité de l’air</h2>
+        <p>L’indice ATMO communal provient des données ouvertes officielles d’Atmo France et des Associations agréées de surveillance de la qualité de l’air (AASQA), selon disponibilité.</p>
+      </section>
+      <section>
+        <h2>Pollen et altitude</h2>
+        <p>Les prévisions de pollen utilisent Open-Meteo et les données CAMS associées, selon disponibilité et saison. L’altitude terrain utilise également le service Open-Meteo lorsqu’elle ne peut pas être déterminée localement.</p>
+      </section>
+      <section>
+        <h2>Limites</h2>
+        <p class="notice">Les prévisions et indices sont indicatifs. Les données peuvent être retardées, partielles ou indisponibles. Pour toute décision de sécurité, consultez les services officiels compétents.</p>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-copy"><span>© 2026 Clément Lours — MétéoClair</span><span>Application iOS indépendante.</span></div>
+    <nav class="footer-links" aria-label="Liens de pied de page"><a href="support.html">Assistance</a><a href="confidentialite.html">Confidentialité</a><a href="sources.html">Sources</a><a href="accessibilite.html">Accessibilité</a><a href="conditions.html">Conditions</a></nav>
+  </footer>
 </body>
 </html>

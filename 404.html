@@ -1,25 +1,35 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#061426">
-<title>Page introuvable — MétéoClair</title>
-<meta name="description" content="Page introuvable.">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061426">
+  <meta name="color-scheme" content="dark">
+  <meta name="robots" content="noindex">
+  <title>Page introuvable — MétéoClair</title>
+  <meta name="description" content="La page demandée est introuvable.">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<a class="skip-link" href="#contenu">Aller au contenu</a>
-<header class="site-header">
-  <div class="nav">
-    <a class="brand" href="index.html"><span class="brand-mark">⛅</span><span>MétéoClair</span></a>
-    <nav class="nav-links" aria-label="Navigation principale"><a href="support.html">Assistance</a><a href="confidentialite.html">Confidentialité</a><a href="sources.html">Sources</a><a href="accessibilite.html">Accessibilité</a><a href="conditions.html">Conditions</a></nav>
-  </div>
-</header>
-<main id="contenu"><div class="content"><article><h1>Page introuvable</h1><p>Cette page n’existe pas ou a été déplacée.</p><a class="button primary" href="index.html">Retour à l’accueil</a></article></div></main>
-<footer>
-  <span>© 2026 Clément Lours — MétéoClair</span>
-  <nav aria-label="Liens de pied de page"><a href="support.html">Assistance</a><a href="confidentialite.html">Confidentialité</a><a href="sources.html">Sources</a><a href="accessibilite.html">Accessibilité</a><a href="conditions.html">Conditions</a></nav>
-</footer>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="MétéoClair, accueil"><img src="assets/app-icon.png" width="1024" height="1024" alt=""><span>MétéoClair</span></a>
+      <nav class="nav-links" aria-label="Navigation principale"><a href="index.html#fonctionnalites">Fonctionnalités</a><a href="index.html#apercus">Aperçus</a><a href="support.html">Assistance</a><a href="confidentialite.html">Confidentialité</a><a href="sources.html">Sources</a><a href="accessibilite.html">Accessibilité</a></nav>
+      <details class="mobile-menu"><summary aria-label="Ouvrir le menu de navigation">Menu</summary><nav aria-label="Navigation mobile"><a href="index.html">Accueil</a><a href="support.html">Assistance</a><a href="confidentialite.html">Confidentialité</a><a href="sources.html">Sources</a><a href="accessibilite.html">Accessibilité</a></nav></details>
+    </div>
+  </header>
+  <main id="contenu" class="error-page">
+    <article class="error-card">
+      <img src="assets/app-icon.png" width="1024" height="1024" alt="Logo officiel de MétéoClair">
+      <p class="error-code">Erreur 404</p>
+      <h1>Cette page s’est dissipée.</h1>
+      <p>Elle n’existe pas ou a été déplacée. Revenez à l’accueil pour retrouver MétéoClair.</p>
+      <a class="button primary" href="index.html">Retour à l’accueil</a>
+    </article>
+  </main>
 </body>
 </html>

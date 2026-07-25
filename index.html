@@ -1,53 +1,248 @@
 <!doctype html>
 <html lang="fr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#061426">
-<title>MétéoClair — La météo, clairement</title>
-<meta name="description" content="Site officiel de MétéoClair, application météo iPhone.">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061426">
+  <meta name="color-scheme" content="dark">
+  <title>MétéoClair — La météo, clairement</title>
+  <meta name="description" content="Conditions actuelles, prévisions détaillées, pluie heure par heure, qualité de l’air et pollens dans une application iPhone simple, gratuite et sans publicité.">
+  <link rel="canonical" href="https://meteoexpertfrance.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="MétéoClair">
+  <meta property="og:title" content="MétéoClair — La météo, clairement">
+  <meta property="og:description" content="Conditions actuelles, prévisions détaillées, pluie heure par heure, qualité de l’air et pollens dans une application iPhone simple, gratuite et sans publicité.">
+  <meta property="og:url" content="https://meteoexpertfrance.github.io/">
+  <meta property="og:image" content="https://meteoexpertfrance.github.io/assets/social/meteo-clair-social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logo officiel de MétéoClair sur fond bleu nuit">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MétéoClair — La météo, clairement">
+  <meta name="twitter:description" content="Une application météo iPhone simple, gratuite et sans publicité.">
+  <meta name="twitter:image" content="https://meteoexpertfrance.github.io/assets/social/meteo-clair-social.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<a class="skip-link" href="#contenu">Aller au contenu</a>
-<header class="site-header">
-  <div class="nav">
-    <a class="brand" href="index.html"><span class="brand-mark">⛅</span><span>MétéoClair</span></a>
-    <nav class="nav-links" aria-label="Navigation principale"><a href="support.html">Assistance</a><a href="confidentialite.html">Confidentialité</a><a href="sources.html">Sources</a><a href="accessibilite.html">Accessibilité</a><a href="conditions.html">Conditions</a></nav>
-  </div>
-</header>
-<main id="contenu">
-<section class="hero">
-  <div>
-    <span class="eyebrow">Application météo iPhone</span>
-    <h1>La météo, <span class="accent">clairement.</span></h1>
-    <p class="lead">MétéoClair réunit les conditions actuelles, les prévisions détaillées, la pluie heure par heure, la qualité de l’air et les pollens dans une interface simple à comprendre.</p>
-    <div class="actions">
-      <a class="button primary" href="support.html">Obtenir de l’aide</a>
-      <a class="button" href="confidentialite.html">Vie privée</a>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="MétéoClair, accueil">
+        <img src="assets/app-icon.png" width="1024" height="1024" alt="">
+        <span>MétéoClair</span>
+      </a>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a href="#fonctionnalites">Fonctionnalités</a>
+        <a href="#apercus">Aperçus</a>
+        <a href="support.html">Assistance</a>
+        <a href="confidentialite.html">Confidentialité</a>
+        <a href="sources.html">Sources</a>
+        <a href="accessibilite.html">Accessibilité</a>
+      </nav>
+      <details class="mobile-menu">
+        <summary aria-label="Ouvrir le menu de navigation">Menu</summary>
+        <nav aria-label="Navigation mobile">
+          <a href="#fonctionnalites">Fonctionnalités</a>
+          <a href="#apercus">Aperçus</a>
+          <a href="support.html">Assistance</a>
+          <a href="confidentialite.html">Confidentialité</a>
+          <a href="sources.html">Sources</a>
+          <a href="accessibilite.html">Accessibilité</a>
+        </nav>
+      </details>
     </div>
-  </div>
-  <div class="weather-orb" role="img" aria-label="Soleil, nuage, pluie et éclair">🌦️</div>
-</section>
-<section aria-labelledby="points-forts">
-  <h2 id="points-forts">Pensée pour aller à l’essentiel</h2>
-  <div class="grid">
-    <article class="card"><h3>Prévisions utiles</h3><p>Conditions actuelles, ressenti, vent, rafales, UV et prévisions jusqu’à dix jours.</p></article>
-    <article class="card"><h3>Pluie et pollen</h3><p>Épisodes pluvieux, cumuls, qualité de l’air et pollens avec des états indisponibles clairement signalés.</p></article>
-    <article class="card"><h3>Sans publicité</h3><p>Aucun compte, aucune publicité, aucun achat intégré et aucun suivi publicitaire.</p></article>
-  </div>
-</section>
-<section class="content">
-  <article>
-    <h2>À propos de MétéoClair</h2>
-    <p>MétéoClair est une application iOS indépendante. Les données météo proviennent principalement d’Apple Weather via WeatherKit. D’autres services documentés fournissent la recherche de lieux, la qualité de l’air, le pollen et l’altitude.</p>
-    <p class="notice">Les informations affichées sont indicatives. Pour les vigilances et consignes de sécurité, consultez toujours les autorités compétentes.</p>
-  </article>
-</section>
-</main>
-<footer>
-  <span>© 2026 Clément Lours — MétéoClair</span>
-  <nav aria-label="Liens de pied de page"><a href="support.html">Assistance</a><a href="confidentialite.html">Confidentialité</a><a href="sources.html">Sources</a><a href="accessibilite.html">Accessibilité</a><a href="conditions.html">Conditions</a></nav>
-</footer>
+  </header>
+
+  <main id="contenu">
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div>
+          <span class="badge">Application météo pour iPhone</span>
+          <h1>La météo,<br>clairement.</h1>
+          <p class="lead">MétéoClair réunit les conditions actuelles, les prévisions détaillées, la pluie heure par heure, la qualité de l’air et les pollens dans une interface simple à comprendre.</p>
+          <p class="trust-line">Gratuit · Sans compte · Sans publicité · Localisation facultative</p>
+          <div class="actions">
+            <span class="button primary" aria-disabled="true">Bientôt sur l’App Store</span>
+            <a class="button" href="#fonctionnalites">Découvrir l’application</a>
+            <a class="text-link" href="confidentialite.html">Confidentialité</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Aperçu de l’accueil de MétéoClair">
+          <div class="hero-glow" aria-hidden="true"></div>
+          <img class="hero-shot" src="assets/screenshots/01-accueil-paris.png" width="647" height="1400" alt="Écran d’accueil de MétéoClair pour Paris, avec les conditions actuelles et les prévisions heure par heure">
+          <img class="hero-logo" src="assets/app-icon.png" width="1024" height="1024" alt="Logo officiel de MétéoClair">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="fonctionnalites">
+      <div class="shell">
+        <div class="section-heading">
+          <span class="eyebrow">L’essentiel, sans détour</span>
+          <h2>Des informations utiles, au bon niveau de détail.</h2>
+          <p>Une interface pensée pour lire rapidement la situation, puis approfondir seulement lorsque vous en avez besoin.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-number">01</span>
+            <h3>Tout comprendre en un coup d’œil</h3>
+            <p>Température, ressenti, vent, rafales, humidité, pression, visibilité et indice UV réunis dans une présentation lisible.</p>
+          </article>
+          <article class="feature-card" style="--card-color: var(--orange-soft); --card-glow: rgba(255, 122, 50, 0.13)">
+            <span class="feature-number">02</span>
+            <h3>Prévisions jusqu’à dix jours</h3>
+            <p>Comparez les prochaines journées et ouvrez chaque date pour accéder aux détails heure par heure.</p>
+          </article>
+          <article class="feature-card" style="--card-color: var(--cyan-soft)">
+            <span class="feature-number">03</span>
+            <h3>Pluie, air et pollens</h3>
+            <p>Consultez les épisodes pluvieux, la qualité de l’air locale et les pollens à surveiller pour le lieu sélectionné.</p>
+          </article>
+          <article class="feature-card" style="--card-color: var(--green); --card-glow: rgba(79, 221, 164, 0.12)">
+            <span class="feature-number">04</span>
+            <h3>Gratuit et respectueux de votre vie privée</h3>
+            <p>Aucun compte, aucune publicité, aucun achat intégré et aucune mesure d’audience tierce.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="apercus">
+      <div class="shell">
+        <div class="section-heading center">
+          <span class="eyebrow">Dans l’application</span>
+          <h2>Découvrez MétéoClair</h2>
+          <p>Une lecture simple pour accéder rapidement aux informations qui comptent.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-card">
+            <figcaption class="gallery-copy">
+              <h3>Votre météo en un coup d’œil</h3>
+              <p>Les conditions actuelles et les informations essentielles sont réunies sur l’accueil.</p>
+            </figcaption>
+            <div class="gallery-image-wrap">
+              <img src="assets/screenshots/01-accueil-paris.png" width="647" height="1400" loading="lazy" decoding="async" alt="Accueil MétéoClair pour Paris avec température, vent, humidité, pression et prévisions horaires">
+            </div>
+          </figure>
+          <figure class="gallery-card">
+            <figcaption class="gallery-copy">
+              <h3>Prévisions détaillées</h3>
+              <p>Comparez les dix prochaines journées et ouvrez chaque date pour consulter ses détails.</p>
+            </figcaption>
+            <div class="gallery-image-wrap">
+              <img src="assets/screenshots/02-previsions-paris.png" width="647" height="1400" loading="lazy" decoding="async" alt="Prévisions détaillées MétéoClair sur dix jours pour Paris">
+            </div>
+          </figure>
+          <figure class="gallery-card">
+            <figcaption class="gallery-copy">
+              <h3>Suivez la pluie heure par heure</h3>
+              <p>Prochain épisode, risque maximal, quantité, intensité et prévision minute lorsqu’elle est disponible.</p>
+            </figcaption>
+            <div class="gallery-image-wrap">
+              <img src="assets/screenshots/03-pluie-paris.png" width="647" height="1400" loading="lazy" decoding="async" alt="Écran Pluie de MétéoClair avec prochain épisode et graphique de prévision minute">
+            </div>
+          </figure>
+          <figure class="gallery-card">
+            <figcaption class="gallery-copy">
+              <h3>La qualité de l’air locale</h3>
+              <p>Consultez l’indice ATMO communal actuel et son évolution prévue.</p>
+            </figcaption>
+            <div class="gallery-image-wrap">
+              <img src="assets/screenshots/04-qualite-air-paris.png" width="647" height="1400" loading="lazy" decoding="async" alt="Carte Qualité de l’air MétéoClair affichant l’indice ATMO pour Paris">
+            </div>
+          </figure>
+          <figure class="gallery-card">
+            <figcaption class="gallery-copy">
+              <h3>Les pollens à surveiller</h3>
+              <p>Identifiez les espèces dominantes, leur niveau et leur évolution.</p>
+            </figcaption>
+            <div class="gallery-image-wrap">
+              <img src="assets/screenshots/05-pollen-paris.png" width="647" height="1400" loading="lazy" decoding="async" alt="Détail pollen MétéoClair avec six espèces et leur évolution horaire">
+            </div>
+          </figure>
+          <figure class="gallery-card">
+            <figcaption class="gallery-copy">
+              <h3>Vos villes favorites</h3>
+              <p>Recherchez une commune, utilisez votre position ou passez rapidement d’un favori à l’autre.</p>
+            </figcaption>
+            <div class="gallery-image-wrap">
+              <img src="assets/screenshots/06-recherche-favoris-paris.png" width="647" height="1400" loading="lazy" decoding="async" alt="Sélecteur de lieu MétéoClair avec recherche, position et villes favorites">
+            </div>
+          </figure>
+          <figure class="gallery-card">
+            <figcaption class="gallery-copy">
+              <h3>Tous les détails utiles</h3>
+              <p>Température, pluie, vent, rafales, humidité, pression, visibilité, UV et évolution horaire.</p>
+            </figcaption>
+            <div class="gallery-image-wrap">
+              <img src="assets/screenshots/07-detail-meteo-paris.png" width="647" height="1400" loading="lazy" decoding="async" alt="Détail météo MétéoClair avec graphiques de température, précipitations et vent">
+            </div>
+          </figure>
+          <figure class="gallery-card">
+            <figcaption class="gallery-copy">
+              <h3>Une utilisation transparente</h3>
+              <p>Les sources, la localisation facultative et le fonctionnement des données sont expliqués directement dans l’application.</p>
+            </figcaption>
+            <div class="gallery-image-wrap">
+              <img src="assets/screenshots/08-reglages-confidentialite.png" width="647" height="1400" loading="lazy" decoding="async" alt="Écran Confidentialité de MétéoClair expliquant les données et services utilisés">
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sources">
+      <div class="shell trust-panel">
+        <div class="section-heading">
+          <span class="eyebrow">Transparence</span>
+          <h2>Des informations clairement attribuées</h2>
+          <p>Les données météo sont fournies par Apple Weather via WeatherKit. La recherche de lieux utilise Apple Plans. La qualité de l’air repose sur les données officielles Atmo France/AASQA. Les informations de pollen utilisent Open-Meteo/CAMS lorsque cette donnée est disponible.</p>
+        </div>
+        <div class="source-grid">
+          <div class="source-card"><span>Météo</span><strong>Apple Weather / WeatherKit</strong></div>
+          <div class="source-card"><span>Lieux</span><strong>Apple Plans / MapKit</strong></div>
+          <div class="source-card"><span>Qualité de l’air</span><strong>Atmo France / AASQA</strong></div>
+          <div class="source-card"><span>Pollen</span><strong>Open-Meteo / CAMS</strong></div>
+        </div>
+        <div class="actions">
+          <a class="button" href="sources.html">Consulter les sources</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="shell two-column">
+        <article class="privacy-panel">
+          <span class="eyebrow">Vie privée</span>
+          <h2>Vos données restent sous votre contrôle</h2>
+          <p>La localisation est facultative et utilisée uniquement pour obtenir les informations du lieu choisi. Les favoris et préférences sont stockés localement. MétéoClair ne demande aucun compte et n’intègre ni publicité ni suivi publicitaire.</p>
+          <a class="button" href="confidentialite.html">Consulter la politique de confidentialité</a>
+        </article>
+        <article class="availability-panel">
+          <span class="status-pill">Vérification en cours</span>
+          <h2>MétéoClair arrive sur l’App Store</h2>
+          <p>L’application a été transmise à Apple pour vérification. Sa disponibilité sera annoncée après validation.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-copy">
+      <span>© 2026 Clément Lours — MétéoClair</span>
+      <span>Application iOS indépendante.</span>
+    </div>
+    <nav class="footer-links" aria-label="Liens de pied de page">
+      <a href="support.html">Assistance</a>
+      <a href="confidentialite.html">Confidentialité</a>
+      <a href="sources.html">Sources</a>
+      <a href="accessibilite.html">Accessibilité</a>
+      <a href="conditions.html">Conditions</a>
+    </nav>
+  </footer>
 </body>
 </html>
